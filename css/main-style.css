@@ -54,6 +54,10 @@ h4{
   font-family: var(--font-family);
 }
 
+ button {
+    cursor: pointer;
+  }
+
 *,
 *::before,
 *::after {
@@ -62,9 +66,9 @@ box-sizing: border-box;
 
 ul,
 ol {
-margin: 0;
-padding: 0;
-list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 a {
@@ -83,8 +87,6 @@ img{
 .section{ 
     height: 100%;
     width: 100%;
-   
-    
   }
 
 .site-logo-text a{
@@ -116,9 +118,12 @@ img{
     font-size: 1.2em;
     background-color: var(--color-green);
     color: var(--color-white);
-    border: 0;;
+    border: 0;
+  
     
 }
+
+
 
 .header-search-form .search-bar{
     background-color: transparent;
