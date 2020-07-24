@@ -1,0 +1,131 @@
+.page-width{
+    display: block;
+    max-width: var(--desktop-width);
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -18px;
+    margin-right: -18px;
+}
+.grid__item {
+    padding: 25px;  
+    flex:1 1 100%;
+    align-self: flex-start;
+  
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 590px) {
+   
+    .page-width{
+        max-width: var(--mobile-width);
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+
+    .grid__item{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .small--hide{
+        display:none !important;
+    }
+    .small--one-whole {
+        flex:1 1 100%;
+      }
+    .small--text-center{
+        text-align: center 
+    }
+    
+    .small--text-right{
+        text-align: right;
+    }
+    
+    .small--text-left{
+        text-align: right;
+    }
+
+}
+
+
+
+/* Tablet */
+
+@media screen and (min-width: 591px) and (max-width: 1000px) {
+
+        .medium--hide{
+            display: none !important;
+        }
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 749px) {
+
+    .medium-up--one-whole{
+        flex:1 1 100%;
+      }
+    .medium-up--three-fifths{
+        flex:1 1 60%;
+    }
+    .medium-up--one-half,
+    .one-half, .small--one-half {
+        flex:1 1 50%;
+    }
+
+    .medium-up--one-third {
+        flex:1 1 33.333%;
+    }
+
+    .medium-up--one-quarter {
+        flex:1 1 25%;
+    }
+
+    .medium-up--one-fifth {
+        flex:1 1 20%;
+    }
+    .medium-up--two-thirds {
+        flex:1 1 66.666%;
+    }
+    .medium-up--three-quarters {
+        flex:1 1 75%;
+    }
+
+    .medium-up--text-center{
+        text-align: center 
+    }
+    
+    .medium-up--text-right{
+        text-align: right;
+    }
+    
+    .medium-up--text-left{
+        text-align: right;
+    }
+
+    .medium-up--hide{
+        display:none !important;
+    }
+    
+}
+
+/* Large screen */
+@media screen and (min-width: 1001px) {
+    .large--hide{
+        display:none !important;
+
+    }
+    
+}

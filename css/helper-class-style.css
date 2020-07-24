@@ -1,0 +1,44 @@
+
+
+.btn{
+    display: inline-block;
+      width: auto;
+      text-decoration: none;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: var(--color-light-green);
+      padding: 14px 25px;
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+      color: var(--color-white);
+      font-family: var(--font-family);
+      font-style: normal;
+      border: 0;
+      text-transform: capitalize;
+      line-height: 1.133;
+      white-space: normal;
+      font-size: 1em;
+      font-weight: var(--font-weight-light);
+      margin-top: 1.5625em;
+    }
+
+.text-center{
+    text-align: center 
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: right;
+}
+
+.show{
+    display: block !important;
+ }
+
+.hide{
+    display:none !important;
+}
