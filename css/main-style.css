@@ -247,6 +247,10 @@ img{
     color: var(--color-black);
 
 }
+
+.share-icon{
+    width: 1em;
+}
 .category-wrapper{
     font-size: 0.875em;
     margin-top: 0.2916666667em;
