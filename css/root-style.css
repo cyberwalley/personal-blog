@@ -1,0 +1,87 @@
+:root{
+
+    /* dimension */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    /* Colors*/
+    --color-bg: #F4F6F8;
+    --color-body-text: #000;
+    --color-white:#ffff;
+    --color-green: #002E25;
+    --color-light-green: #008060;
+   --color-lighter-green: #E3F1DF;
+   --color-bg-shadow: #dfe3e8;
+   --color-bg-hover-shadow: #6d7175;
+   --color-black: #212b35;
+   --color-yellow: #EEC200;
+    /* Font */
+    --font-family: 'Open Sans', Helvetica, sans-serif;
+    --font-size: 16px;
+    --font-weight-dark:700;
+    --font-weight-light:500;
+
+}
+
+footer,
+header {
+    
+    display: block;
+}
+
+body{
+
+    background-color: var(--color-bg);
+    color: var(--color-black);
+}
+
+html,
+body,
+figure,
+p,
+h1,
+h2,
+h3,
+h4{
+
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+button {
+    cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+img{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.full-width,
+.section{ 
+    height: 100%;
+    width: 100%;
+}

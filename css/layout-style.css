@@ -14,6 +14,7 @@
     margin-left: -18px;
     margin-right: -18px;
 }
+
 .grid__item {
     padding: 25px;  
     flex:1 1 100%;
@@ -41,9 +42,11 @@
     .small--hide{
         display:none !important;
     }
+
     .small--one-whole {
         flex:1 1 100%;
-      }
+    }
+
     .small--text-center{
         text-align: center 
     }
@@ -76,10 +79,12 @@
 
     .medium-up--one-whole{
         flex:1 1 100%;
-      }
+    }
+
     .medium-up--three-fifths{
         flex:1 1 60%;
     }
+
     .medium-up--one-half,
     .one-half, .small--one-half {
         flex:1 1 50%;
@@ -96,9 +101,11 @@
     .medium-up--one-fifth {
         flex:1 1 20%;
     }
+
     .medium-up--two-thirds {
         flex:1 1 66.666%;
     }
+    
     .medium-up--three-quarters {
         flex:1 1 75%;
     }
